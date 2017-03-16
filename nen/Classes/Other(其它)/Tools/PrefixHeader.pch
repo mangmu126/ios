@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  nen
+//
+//  Created by apple on 17/3/9.
+//  Copyright © 2017年 nen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__  
+
+#import "UIView+SHextension.h"
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
